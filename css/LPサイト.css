@@ -188,7 +188,7 @@ header{
 }
 .card{
   width: 30vw;
-  border-radius: 25%;
+  border-radius: 35%;
 }
 .card_img1{
   width: 100%;
@@ -205,6 +205,13 @@ header{
   padding: 20px;
   width: 100%;
   background-color: white;
+  height: 200px;
+}
+.flex{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card_title{
   font-size: 18px;
@@ -213,14 +220,26 @@ header{
 .card_content__last{
   display: flex;
   justify-content: space-between;
+  height: 100%;
+}
+.page{
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 
 .company0{
-  padding: 30px 80px;
+  margin: 30px auto;
+  width: 600px;
 }
 .table_title{
   margin-bottom: 15px;
+}
+table{
+  height: 300px;
 }
 tr{
   padding: 10px;
@@ -229,6 +248,7 @@ th{
   background-color: gainsboro;
   font-weight: bold;
   width: 30vw;
+  text-align: left;
 }
 td{
   width: 70vw;
