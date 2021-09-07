@@ -83,7 +83,7 @@ header{
   color: white;
   border-radius: 29%;
   margin: 0 30px;
-  width: 100px;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
 }
@@ -144,6 +144,7 @@ header{
   grid-row: 1/2;
   background: url(../img/img/service__first.svg) no-repeat left/160px;
   background-color: firebrick;
+  opacity: 0.8;
   color: white;
   position: relative;
 }
@@ -152,6 +153,7 @@ header{
   grid-row: 2/3;
   background: url(../img/img/service__first.svg) no-repeat  left/160px;
   background-color: firebrick;
+  opacity: 0.5;
   color: white;
   position: relative;
 }
@@ -220,49 +222,52 @@ header{
   display: flex;
   justify-content: space-between;
   height: 50%;
-  align-items: baseline;
+  margin-top: 70px;
 }
 .page_block{
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .page{
-  line-height: 40px;
   border: darkred solid 3px;
-  border-radius: 30%;
-  display: inline-block;
+  color: darkred;
+  background-color: white;
+  border-radius: 42%;
   margin-top: 20px;
-  padding: 20px 35px;
-  position: absolute;
-  left: 50%;
+  padding: 20px 45px;
 }
 
 
 .company0{
-  margin: 30px auto;
+  margin: 70px auto;
   width: 600px;
 }
 .table_title{
   margin-bottom: 15px;
 }
 table{
-  height: 300px;
+  height: auto;
+  width: 100%;
 }
 tr{
-  padding: 10px;
+  line-height: 50px;
 }
 th{
   background-color: gainsboro;
   font-weight: bold;
-  width: 30vw;
+  width: 30%;
   text-align: left;
 }
 td{
-  width: 70vw;
+  width: 70%;
 }
 
 
+.recruit{
+  display: flex;
+}
 .recruir_img{
-  height: 80px;
+  height: 300px;
   display: flex;
   position: relative;
 }
@@ -271,29 +276,43 @@ td{
   top: 50%;
   left: 50%;
 }
+
+
 .question{
   padding: 30px 100px;
+  text-align: center;
+}
+.question_title{
+  font-size: 19px;
+  color: gray;
+}
+.line{
+  color: darkred;
+  font-size: 40px;
+  padding: 20px;
 }
 .question_button{
-  width: 80vw;
+  width: 18vw;
   background-color: darkred;
-  box-shadow: darkred 0 5px 3px;
+  box-shadow: darkred 0 10px 10px;
   border-radius: 35px;
+  margin: auto;
 }
 .question_text{
   padding: 20px;
-  display: inline-block;
 }
 .question_text::before{
   background: url(../img/img/mailicon.svg)no-repeat;
 }
 footer{
-  height: 30px;
+  height: 55px;
   background-color: gainsboro;
 }
 .footer_text{
-  display: inline-block;
   padding:20px 120px;
+  color: gray;
+  text-align: center;
+  font-size: small;
 }
 
 
