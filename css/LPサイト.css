@@ -246,7 +246,7 @@ header{
   margin-bottom: 15px;
 }
 table, td, th{
-    border: 1px solid gray;
+  border: 1px solid gray;
 }
 table{
   height: auto;
@@ -270,8 +270,9 @@ td{
   display: flex;
 }
 .recruir_img{
-  height: 300px;
-  display: flex;
+  width: 50%;
+}
+.recruir_img1,.recruir_img2{
   position: relative;
 }
 .recruit_info{
