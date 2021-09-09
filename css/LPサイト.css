@@ -273,13 +273,7 @@ td{
 .recruir_img{
   width: 50%;
 }
-.recruir_img1,.recruir_img2{
-  position: relative;
-}
 .recruit_info{
-  position: absolute;
-  top: 50%;
-  left: 50%;
   font-size: 23px;
   color: white;
 }
