@@ -232,7 +232,7 @@ header{
   border: darkred solid 3px;
   color: darkred;
   background-color: white;
-  border-radius: 42%;
+  border-radius: 35%;
   margin-top: 20px;
   padding: 20px 45px;
 }
@@ -270,8 +270,21 @@ td{
   display: flex;
   justify-content: space-between;
 }
-.recruir_img{
+.recruir_img1{
   width: 50%;
+  background: url(../img/recruit.png) no-repeat cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.recruit_img2{
+  width:50%;
+  background: url(../img/interview.png) no-repeat cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .recruit_info{
   font-size: 23px;
@@ -294,16 +307,20 @@ td{
 }
 .question_button{
   width: 18vw;
-  background-color: darkred;
-  box-shadow: darkred 0 10px 10px;
+  background: linear-gradient(90deg,hotpink,darkred);
+  box-shadow: hotpink 0 10px 10px;
   border-radius: 35px;
+  color: white;
   margin: auto;
 }
 .question_text{
   padding: 20px;
 }
 .question_text::before{
-  background: url(../img/img/mailicon.svg)no-repeat;
+  content: "";
+  background: url(../img/img/mailicon.svg) no-repeat cover;
+  display: block;
+  width: 30px;
 }
 footer{
   height: 55px;
