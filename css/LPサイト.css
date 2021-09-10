@@ -276,7 +276,7 @@ td{
   height: 500px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 .recruit_img2{
   width:50%;
@@ -284,11 +284,12 @@ td{
   height: 500px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 .recruit_info{
   font-size: 23px;
   color: white;
+  font-weight: bold;
 }
 
 
