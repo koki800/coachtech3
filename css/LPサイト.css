@@ -315,13 +315,15 @@ td{
   margin: auto;
 }
 .question_text{
-  padding: 20px;
+  padding: 21px 54px 21px 39px;
+  font-size: 20px;
 }
 .question_text::before{
   content: "";
-  background: url(../img/img/mailicon.svg) no-repeat center/cover;
+  background: url(../img/img/mailicon.svg) no-repeat center/100%;
   display: inline-block;
-  height: 18px;
+  height: 20px;
+  width: 25px;
 }
 footer{
   height: 55px;
