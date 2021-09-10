@@ -320,8 +320,8 @@ td{
 .question_text::before{
   content: "";
   background: url(../img/img/mailicon.svg) no-repeat center/cover;
-  display: block;
-  width: 30px;
+  display: inline-block;
+  height: 18px;
 }
 footer{
   height: 55px;
