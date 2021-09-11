@@ -295,16 +295,17 @@ td{
 
 .question{
   padding: 30px 100px;
-  text-align: center;
 }
 .question_title{
   font-size: 19px;
   color: gray;
+  text-align: center;
 }
 .line{
   color: darkred;
   font-size: 40px;
   padding: 20px;
+  text-align: center;
 }
 .question_button{
   width: 22vw;
