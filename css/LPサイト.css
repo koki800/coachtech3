@@ -54,7 +54,7 @@ header{
 
 .news0{
   height:400px ;
-  margin: 100px 300px;
+  margin: 0 100px;
 }
 .info,.service_content,.blog05,.table_title{
   margin-bottom: 20px;
@@ -118,12 +118,12 @@ header{
   background:url(../img/about.jpg) no-repeat ;
   background-size: 100% ;
   width:40%;
-  height:300px;
+  height:250px;
 }
 
 
 .service0{
-  padding: 30px 200px;
+  padding: 30px 100px;
 }
 .grid{
   display: grid;
@@ -160,7 +160,7 @@ header{
 .box1{
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 10%;
 }
 .box2{
   position: absolute;
@@ -176,7 +176,7 @@ header{
 
 
 .blog0{
-  padding: 20px 80px ;
+  padding: 20px 100px ;
   background-color: gainsboro;
 }
 .cards{
@@ -184,7 +184,7 @@ header{
   justify-content: space-between;
 }
 .card{
-  width: 28vw;
+  width: 24vw;
 }
 .card_img1{
   width: 100%;
@@ -196,16 +196,14 @@ header{
 }
 .blog1{
   background-color: darkred;
-  padding: 20px;
+  padding: 15px;
   position: absolute;
   top: 0;
   left: 0;
   border-top-left-radius: 25%;
 }
 .card_content{
-  width: 363.19px;
   background-color: white;
-  height: 150px;
   padding: 30px  20px 15px;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
@@ -213,6 +211,7 @@ header{
 .flex{
   color: gray;
   line-height: 30px;
+  margin-bottom: 70px;
 }
 .card_title{
   font-size: 18px;
@@ -221,8 +220,6 @@ header{
 .card_content__last{
   display: flex;
   justify-content: space-between;
-  height: 50%;
-  margin-top: 70px;
 }
 .page_block{
   display: flex;
